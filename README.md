@@ -21,11 +21,11 @@ This repository is designed for student lab materials for courses Data Managemen
   - Handle NULL values
   - Perform schema changes using ALTER TABLE and RENAME TABLE
 
-  - Lab3:
-    - Define relationships between tables using FOREIGN KEY
-    - Understand one-to-many and many-to-many relationships
-    - Perform INNER JOIN, LEFT JOIN, and RIGHT JOIN queries
-    - Combine multiple tables to extract business insights
+- Lab3:
+  - Define relationships between tables using FOREIGN KEY
+  - Understand one-to-many and many-to-many relationships
+  - Perform INNER JOIN, LEFT JOIN, and RIGHT JOIN queries
+  - Combine multiple tables to extract business insights
 
 
 

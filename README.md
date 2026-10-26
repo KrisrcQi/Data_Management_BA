@@ -4,6 +4,7 @@ This repository is designed for student lab materials for courses Data Managemen
 ## Subjects
 - Lab1: Introduction, Creating & Populating Tables
 - Lab2: Products Table, CRUD, Filtering & Schema Changes
+- Lab3: Relationships & Joins
 
 ## Learning Goal
 - Lab1:

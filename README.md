@@ -28,5 +28,12 @@ This repository is designed for student lab materials for courses Data Managemen
   - Perform INNER JOIN, LEFT JOIN, and RIGHT JOIN queries
   - Combine multiple tables to extract business insights
 
+- Lab4:
+  - Use SQL aggregate functions (SUM, COUNT, AVG, MIN, MAX).
+  - Apply GROUP BY and HAVING for grouped analysis.
+  - Use subqueries for deeper business insights.
+  - Write simple analytical queries to support business decision-making.
 
-
+## Database Design
+The database is designed ideally for teaching purpose with random data inserted in each table. 
+The relationship is followed by the ERD below:

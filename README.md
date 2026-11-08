@@ -37,3 +37,4 @@ This repository is designed for student lab materials for courses Data Managemen
 ## Database Design
 The database is designed ideally for teaching purpose with random data inserted in each table. 
 The relationship is followed by the ERD below:
+![ERD_figure](Figure/ERD.png)

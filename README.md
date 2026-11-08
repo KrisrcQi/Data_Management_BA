@@ -52,4 +52,21 @@ The relationship is followed by the ERD below:
 
 ## Re-creating tables
 In case of the student's mistake and misunderstanding for table's relationship and inserted multiple times of data. 
-The code of New_creationTable is used for quickly re-creating all tables in a new database: "retail_1" as a copy to capture the current lab progress. 
+The code of `NEWDB_Creation.sql` is used for quickly re-creating all tables in a new database: `retail_1` as a copy to capture the current lab progress. 
+
+```sql
+CREATE DATABASE retail_1;
+USE retail;
+
+CREATE TABLE customers (...);
+CREATE TABLE products (...);
+CREATE TABLE suppliers (...):
+CREATE TABLE orders (...);
+CREATE TABLE order_items (...);
+CREATE TABLE sales (...);
+
+ADD CONSTRAINT fk_order_order_items FOREIGN KEY ()...
+ADD CONSTRAINT fk_order_customers FOREIGN KEY ()...
+ADD CONSTRAINT fk_suppliers_products FOREIGN KEY ()...
+```
+The preudo code is used as a quick start point to re-create a new DB. The whole code refers `NEWDB_Creation.sql`

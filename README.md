@@ -5,6 +5,8 @@ This repository is designed for student lab materials for courses Data Managemen
 - Lab1: Introduction, Creating & Populating Tables
 - Lab2: Products Table, CRUD, Filtering & Schema Changes
 - Lab3: Relationships & Joins
+- Lab4: Aggregation & Computation
+- Lab5: Basic Data Security
 
 ## Learning Goal
 - Lab1:
@@ -34,7 +36,20 @@ This repository is designed for student lab materials for courses Data Managemen
   - Use subqueries for deeper business insights.
   - Write simple analytical queries to support business decision-making.
 
+- Lab5:
+  - Essential security siutations
+    - Create user,
+    - Grant read-only,
+    - Mask emails via a view,
+    - Safe drops.
+  - Business Questions
+
+
 ## Database Design
 The database is designed ideally for teaching purpose with random data inserted in each table. 
 The relationship is followed by the ERD below:
 ![ERD_figure](Figures/ERD.png)
+
+## Re-creating tables
+In case of the student's mistake and misunderstanding for table's relationship and inserted multiple times of data. 
+The code of New_creationTable is used for quickly re-creating all tables in a new database: "retail_1" as a copy to capture the current lab progress. 

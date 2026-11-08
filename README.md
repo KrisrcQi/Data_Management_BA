@@ -65,8 +65,10 @@ CREATE TABLE orders (...);
 CREATE TABLE order_items (...);
 CREATE TABLE sales (...);
 
-ADD CONSTRAINT fk_order_order_items FOREIGN KEY ()...
-ADD CONSTRAINT fk_order_customers FOREIGN KEY ()...
-ADD CONSTRAINT fk_suppliers_products FOREIGN KEY ()...
+INSERT INTO ... () VALUE (...);
+
+ADD CONSTRAINT fk_order_order_items FOREIGN KEY ()...;
+ADD CONSTRAINT fk_order_customers FOREIGN KEY ()...;
+ADD CONSTRAINT fk_suppliers_products FOREIGN KEY ()...;
 ```
 The preudo code is used as a quick start point to re-create a new DB. The whole code refers `NEWDB_Creation.sql`

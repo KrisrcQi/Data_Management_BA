@@ -1,4 +1,4 @@
-# Data_Management_Engineering 2026-27
+# Data Management Engineering 2026-27
 This repository is designed for student lab materials for courses Data Management Engineering (MGT5492) of business analytics program at Adam Smith Business School, University of Glasgow, 2025-26.
 
 ## Subjects
@@ -50,7 +50,7 @@ The database is designed ideally for teaching purpose with random data inserted 
 The relationship is followed by the ERD below:
 ![ERD_figure](Figures/ERD.png)
 
-## Re-creating tables
+## Re-creating Tables
 In case of the student's mistake and misunderstanding for table's relationship and inserted multiple times of data. 
 The code of `NEWDB_Creation.sql` is used for quickly re-creating all tables in a new database: `retail_1` as a copy to capture the current lab progress. 
 

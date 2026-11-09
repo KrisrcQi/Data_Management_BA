@@ -53,7 +53,10 @@ use retail;
 CREATE USER IF NOT EXISTS 'analyst'@'localhost' IDENTIFIED BY 'Password123!';
 
 -- 2) Grant read-only across a schema (retail)
-GRANT SELECT ON retail.* TO 'analyst'@'localhost';
+GRANT SELECT ON retail.* TO 'analyst'@'localhost'; # grant all SELECT access to analyst
+# or:
+GRANT SELECT ON retail.customers TO 'analyst'@'localhost'; # grant only customers table SELECT access to analyst
+	
 SHOW GRANTS FOR 'analyst'@'localhost';
 
 -- 3) Mask emails via a view
@@ -74,7 +77,7 @@ SELECT * FROM v_customers_masked;
 
 -- 4) Limit access to the masked view
 
-REVOKE SELECT ON retail.* FROM 'analyst'@'localhost';
+REVOKE SELECT ON retail.* FROM 'analyst'@'localhost'; # depends what grant analyst hold now, double checking grant for analyst
 GRANT SELECT ON retail.v_customers_masked TO 'analyst'@'localhost';
 
 SHOW GRANTS FOR 'analyst'@'localhost';

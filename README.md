@@ -56,7 +56,7 @@ The code of `NEWDB_Creation.sql` is used for quickly re-creating all tables in a
 
 ```sql
 CREATE DATABASE retail_1;
-USE retail;
+USE retail_1;
 
 CREATE TABLE customers (...);
 CREATE TABLE products (...);

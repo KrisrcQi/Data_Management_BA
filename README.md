@@ -50,7 +50,7 @@ The database is designed ideally for teaching purpose with random data inserted 
 The relationship is followed by the ERD below:
 ![ERD_figure](Figures/ERD.png)
 
-## Re-creating Tables
+## Re-creation & Import Database
 In case of the student's mistake and misunderstanding for table's relationship and duplication happened. 
 The code in NewDB_creation folder is used for quickly re-creating all tables and data in a new database: `retail_1` as a copy to capture the current lab progress.
 Two ways of re-creation:

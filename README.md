@@ -1,5 +1,5 @@
 # Data Management Engineering 2026-27
-This repository is designed for student lab materials for courses Data Management Engineering (MGT5492) of business analytics program at Adam Smith Business School, University of Glasgow, 2025-26.
+This repository is designed for students lab using of courses Data Management Engineering (MGT5492) in business analytics program at Adam Smith Business School, University of Glasgow, 2025-26. The current released version is 2026-2027
 
 ## Subjects
 - Lab1: Introduction, Creating & Populating Tables

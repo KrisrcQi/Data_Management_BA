@@ -55,7 +55,7 @@ In case of the student's mistake and misunderstanding for table's relationship a
 The code in NewDB_creation folder is used for quickly re-creating all tables and data in a new database: `retail_1` as a copy to capture the current lab progress.
 Two ways of re-creation:
 - `NewDB_Creation.sql` : The original code for creating database, tables, and data.
-- `NewDB_dump.sql` : The dump file for importing database, which will result an exactly same database as the created database by `NEWDB_Creation.sql`
+- `retail_dump.sql` : The dump file for importing database, which will result an exactly same database as the created database by `NewDB_Creation.sql`
 
 ```sql
 CREATE DATABASE retail_1;

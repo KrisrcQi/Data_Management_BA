@@ -51,8 +51,11 @@ The relationship is followed by the ERD below:
 ![ERD_figure](Figures/ERD.png)
 
 ## Re-creating Tables
-In case of the student's mistake and misunderstanding for table's relationship and inserted multiple times of data. 
-The code of `NEWDB_Creation.sql` is used for quickly re-creating all tables in a new database: `retail_1` as a copy to capture the current lab progress. 
+In case of the student's mistake and misunderstanding for table's relationship and duplication happened. 
+The code in NewDB_creation folder is used for quickly re-creating all tables and data in a new database: `retail_1` as a copy to capture the current lab progress.
+Two ways of re-creation:
+- `NewDB_Creation.sql` : The original code for creating database, tables, and data.
+- `NewDB_dump.sql` : The dump file for importing database, which will result an exactly same database as the created database by `NEWDB_Creation.sql`
 
 ```sql
 CREATE DATABASE retail_1;

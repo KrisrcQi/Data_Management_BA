@@ -2,11 +2,7 @@
 CREATE DATABASE retail_1;
 USE retail_1;
 
--- SELECT * FROM customers;
--- SELECT * FROM products;
--- SELECT * FROM orders;
--- SELECT * FROM order_items;
--- SELECT * FROM sales;
+
 # Section 2: Customer table 
 ##======================================================##
 CREATE TABLE customers(
